@@ -15,4 +15,4 @@ The main script is "KRAS-annotate-muts-RNAseq-AF-clean.R". The rest of the R scr
 
 Data for now is in my "~/Projects/VariantCallRNAseq/data/" directory and as such this code cannot be run from cloning this repo. Apologies.
 
-"calcVAFGeneListMutChamps.R" is deprecated.
+"calcVAFGeneMutListChamps.R" is deprecated.
