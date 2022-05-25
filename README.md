@@ -10,6 +10,6 @@ There is evidence that KRAS allele frequency affects MAP kinase dependence in ca
 This repository represents code that will create a data frame where each row represents a PDX model. It will be annotated with VAF of KRAS and the mutation in HGVSp_short format (e.g., p.G12C). In cases where there are multiple mutations for a model, they will all be listed on the same row(model) and the VAFs and mutations will be separated by semicolons (i.e. "0.4;0.67" "p.G12C;p.G13D").
 
 ## How to use
-The main script is called "KRAS-annotate-muts-RNAseq-AF-clean.R". The rest of the R scripts are helper functions that are called.
+The main script is "KRAS-annotate-muts-RNAseq-AF-clean.R". The rest of the R scripts are helper functions that are called in the body of the main script.
 
 Data for now is in my "~/Projects/VariantCallRNAseq/data/" directory and as such this code cannot be run from cloning this repo. Apologies.
